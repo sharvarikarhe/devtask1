@@ -1,0 +1,323 @@
+body{
+    background-image: url(./photos/123.jpg)
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+       
+}
+.logo{
+    display: flex;  
+    flex:1;
+}
+.name{
+    flex:1;
+    font-weight: bold;
+    color: #C6CF9B;
+    font-family: 'Rubik Lines',cursive;
+    font-size: 5vh;
+
+}
+.content{
+    flex: 1;
+    display: flex;
+    gap: 1%;
+}
+.image{
+    flex: 1;
+}
+.logo img{
+    height: 100%;
+    width: 50%;
+    border-radius: 50%;
+    
+}
+.item{
+    flex:1;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 4vh;    
+}
+.item a{
+    color: #EAD196;
+}
+.main{
+    display:flex; 
+    height: 85vh;
+}
+.intimg{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+.intimg img{
+    height: 80vh;
+    width: 70%;
+}
+.intro{
+    flex:1;
+    text-align: center;
+    font-family: 'Cedarville Cursive', cursive;  
+    font-size: 3vh;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    color: #FFC5C5;
+}
+h2{
+    color: #C7DCA7;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.bestsellers{
+    height: 100vh;
+}
+.title{
+    text-align: center;
+    font-weight: Bold;
+    font-size: 6vh;
+    color: #FFC5C5;
+}
+.b1{
+    display:flex;
+    height:47vh;
+}
+.best1{
+    flex:1;
+}
+.btitle{
+    height: 4vh;
+}
+.best2{
+    flex:1;
+}
+ .bimg img{
+    height: 90%;
+    width: 10vw;
+    flex:1;
+    border-radius: 3vw;
+    
+ }
+.bimg{
+    display:flex;
+    height: 43vh;
+    width: 25vw;
+    flex:1;
+    
+}
+.btitle{
+    font-family: 'Roboto Mono', monospace;
+    color: #C7DCA7;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5vh;
+}
+.info{
+    display: flex;
+}
+.binfo{
+    flex:1;
+    font-family: 'Dancing Script', cursive;
+    color: #FFEBD8;
+    font-weight: 500;
+    font-size: 3vh;
+}
+.b2{
+    display:flex;
+    height:47vh;
+}
+.best3{
+    flex:1;
+}
+
+.best4{
+    flex:1;
+}
+.recommended{
+    height: 100vh;
+}
+.rtitle{
+    font-family: 'Roboto Mono', monospace;
+    color: #C7DCA7;
+    text-align: center;
+    font-weight: bolder;
+    height: 2.5vh;
+}
+.r1{
+    display: flex;
+    height: 31.3vh;
+}
+.rec1{
+    flex:1;
+}
+.rec2{
+    flex:1;
+}
+.rimg{
+    flex:1;
+    height: 29vh;
+    width: 25vw;
+    display: flex;
+}
+.rimg img{
+    height: 90%;
+    width: 1vw;
+    flex:1;
+    border-radius: 3vw;
+
+}
+.rinfo{
+    flex:1;
+    font-family: 'Dancing Script', cursive;
+    color: #FFEBD8;
+    font-weight: 500;
+    font-size: 3vh;
+}
+.r2{
+    display: flex;
+    height: 31.3vh;
+}
+.rec3{
+    flex:1;
+}
+.rec4{
+    flex:1;
+}
+.r3{
+    display: flex;
+    height: 31.3vh;
+}
+.rec5{
+    flex:1;
+}
+.rec6{
+    flex:1;
+}
+.reviews{
+    height: 100vh;
+}
+.re1{
+    display: flex;
+    height: 47vh;
+    
+    
+}
+.rev1{
+    flex: 1;
+    outline: solid #C7DCA7 2px;
+}
+.rname{
+    font-family: 'Roboto Mono', monospace;
+    color: #C7DCA7;
+    text-align: center;
+    font-weight: bolder;
+    height: 2.5vh;
+}
+.reve{
+    font-family: 'Roboto Mono', monospace;
+    color: #C7DCA7;
+    text-align: center;
+    font-weight: bolder;
+    height: 2.5vh;
+}
+.revt{
+    font-family: 'Dancing Script', cursive;
+    color: #FFEBD8;
+    font-weight: 500;
+    font-size: 3vh;
+}
+.rev2{
+    flex: 1;
+    outline: solid #C7DCA7 2px;
+}
+.re2{
+    height:47vh;
+}
+.rleft{
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 5px;
+}
+.rename{
+    background-color:#FFEBD8;
+}
+.remail{
+    background-color:#FFEBD8;
+}
+
+.revtitle{
+    font-family: 'Roboto Mono', monospace;
+    color: #FFC5C5;
+    font-weight: bolder;
+    height: 4vh;
+}
+.rright{
+    height: 30vh;
+    width: 49vw;
+
+}
+
+.rright textarea{
+    height: 25vh;
+    width: 40vw;
+    background-color: #FFEBD8;
+    margin-top: 5px;
+    font-size: 2vh;
+}
+.rright button{
+    height: 5vh;
+    width: 10vw;
+    border: solid black 1px;
+    background-color: #FFEBD8;
+    color: black;
+    font-size: 2vh;
+    cursor: pointer;
+    border-radius: 2vw;
+}
+
+
+.footer{
+    height: 30vh;
+    display: flex;
+    background-color: #89B9AD;
+}
+.tandc{
+    flex:1;
+    font-weight: 500;
+    padding-left: 200px;
+    font-size: large;
+}
+.more{
+    flex:1;
+}
+.mtitle{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: larger;
+}
+.instagram{
+    padding-left: 100px;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+.facebook{
+    padding-left: 100px;
+    font-size: 20px;
+}
+.mail{
+    padding-left: 100px;
+    font-size: 20px;
+}
+.phone{
+    padding-left: 100px;
+    font-size: 20px;
+}
+.soc{
+    height: 5vh;
+    width: 5vh;
+}
